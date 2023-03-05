@@ -41,7 +41,7 @@ for i,row in yeni_liste:
     else:
         pass
 buyukler = []
-with open("C:/Users/atill/Desktop/deprembilgileri.txt","r+",encoding="utf-8") as file:
+with open("C:/Users/atill/Desktop/deprembilgileri.txt","w",encoding="utf-8") as file:
     file.write('\n'.join('{} {}'.format( x[0], x[1]) for x in yeni_liste))
 
 
